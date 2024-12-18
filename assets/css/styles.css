@@ -1,5 +1,5 @@
 :root {
-	--white_envelope: #f3f4f5;
+	--pink_envelope: rgb(241, 200, 207);
 	--gold_envelope: url(../img/gold_texture.png) #e3ca6f;
 	--white_paper_up: #f2f2f2;
 	--gray: #a5a5a5;
@@ -11,7 +11,7 @@
 body {
 	width: 100%;
 	margin: 0;
-	background: var(--white_envelope);
+	background-color: white;
 	overflow-y: hidden;
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.4vw;
@@ -52,7 +52,7 @@ body {
 	top: 0;
 	left: 0;
 	background-color: var(--white_paper_up);
-	background-image: url(../img/galeria/2.jpg);
+	background-image: url(../img/galeria/1.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +74,7 @@ body {
 @media (min-width: 800px) {
 	.imgPortada {
 		background-color: var(--white_paper_up);
-		background-image: url(../img/galeria/4.jpg);
+		background-image: url(../img/galeria/2.jpg);
 		background-position: center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -181,11 +181,11 @@ body {
 }
 
 #mavi_white {
-	fill: #ffffff;
+	fill:var(--gold) ;
 }
 
 #mavi_gold {
-	fill: var(--gold);
+	fill: green;
 	opacity: 0;
 }
 
@@ -205,12 +205,13 @@ body {
 }
 
 #mis_quince_gold {
-	fill: var(--gold);
+	
+	fill: var(--gray);
 	opacity: 1;
 }
 
 #mis_quince_gray {
-	fill: var(--gray);
+	fill: var(--gold);
 	opacity: 0;
 }
 

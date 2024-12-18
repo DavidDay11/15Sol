@@ -19,7 +19,7 @@
 	position: absolute;
 	height: 48em;
 	width: 72em;
-	background: var(--white_envelope);
+	background: var(--pink_envelope);
 	top: 156vh;
 	left: 0;
 	right: 0;
@@ -40,7 +40,7 @@
 	position: absolute;
 	bottom: 0;
 	display: block;
-	background: var(--white_envelope);
+	background: var(--pink_envelope);
 	width: 36.2em;
 	height: 48em;
 	z-index: 3;
@@ -80,7 +80,7 @@
 	content: "";
 	display: block;
 	padding-top: 100%;
-	background: var(--white_envelope);
+	background: var(--pink_envelope);
 	clip-path: polygon(0 0, 0 100%, 100% 100%);
 	transform-origin: 0% 0%;
 	transform: rotate(-45deg);
@@ -215,11 +215,11 @@
 }
 
 .c1 {
-	background-color: rgba(76, 175, 80, 0.5);
+	background-color: gold;
 }
 
 .c2 {
-	background-color: rgba(156, 39, 176, 0.5);
+	background-color: gold;
 }
 
 /* ANIMATIONS */
