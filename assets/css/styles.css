@@ -206,11 +206,11 @@ body {
 #mis_quinces {
 	opacity: 0;
 
-	-webkit-animation: appear 2.5s calc(12.8s - var(--time-chrome)) ease-out
+	-webkit-animation: appear 0.5s calc(12.8s - var(--time-chrome)) ease-out
 		forwards;
-	-o-animation: appear 2.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
-	-moz-animation: appear 2.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
-	animation: appear 2.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
+	-o-animation: appear 0.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
+	-moz-animation: appear 0.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
+	animation: appear 0.5s calc(12.8s - var(--time-chrome)) ease-out forwards;
 }
 
 #mis_quinces path {
