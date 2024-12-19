@@ -122,7 +122,7 @@ body {
   /* Ajuste para pantallas menores a 800px */
   @media (max-width: 800px) {
 	.scroll-button {
-	  bottom: 23%; /* Ajusta la posición vertical para móviles */
+	  bottom: 9%; /* Ajusta la posición vertical para móviles */
 	  right: 10%; /* Ajusta la posición horizontal para móviles */
 	  width: 45px; /* Tamaño más pequeño si es necesario */
 	  height: 45px;
