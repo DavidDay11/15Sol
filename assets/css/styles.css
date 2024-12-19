@@ -98,6 +98,7 @@ body {
 	position: absolute;
 	bottom: 10%; /* Ajusta según sea necesario */
 	right: 5%; /* Ajusta la distancia desde la derecha */
+	z-index: 10;
 	background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
 	color: white;
 	border: none;
@@ -110,7 +111,7 @@ body {
 	cursor: pointer;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	transition: transform 0.3s ease, background-color 0.3s ease;
-	z-index: 10;
+	
   }
   
   .scroll-button:hover {
@@ -139,31 +140,31 @@ body {
 }
 /* Estilo para la mariposa izquierda */
 .mariposa-izquierda {
-	position: absolute;
-	top: -10%; /* Ajusta según el diseño */
-	left: 5%; /* Ajusta según el diseño */
-	width: 50px; /* Tamaño de la mariposa */
-	height: auto;
-	z-index: 5;
-  }
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    width: 139px;
+    height: auto;
+    z-index: 5;
+}
   
   /* Estilo para la mariposa derecha */
   .mariposa-derecha {
-	position: absolute;
-	top: -10%; /* Ajusta según el diseño */
-	right: 5%; /* Ajusta según el diseño */
-	width: 50px; /* Tamaño de la mariposa */
-	height: auto;
-	z-index: 5;
-	transform: scaleX(-1); /* Efecto espejo */
-  }
+    position: absolute;
+    top: 0%;
+    right: 3%;
+    width: 139px;
+    height: auto;
+    z-index: 5;
+    transform: scaleX(-1);
+}
   
   /* Ajustes para móviles */
   @media (max-width: 800px) {
 	.mariposa-izquierda,
 	.mariposa-derecha {
-	  top: -5%; /* Ajusta la posición para móviles */
-	  width: 40px; /* Tamaño más pequeño */
+	  top: 2%; /* Ajusta la posición para móviles */
+	  width: 124px; /* Tamaño más pequeño */
 	}
   }
 
@@ -185,6 +186,8 @@ body {
 .div_svg {
 	position: absolute;
 	transform-box: fill-box;
+	z-index: 1;
+
 }
 
 .div_marco {
@@ -209,6 +212,7 @@ body {
 	-moz-transform: translate(-20px,-15em);
 	-ms-transform: translate(-20px,-15em);
 	-o-transform: translate(-20px,-15em);
+	z-index: 1;
 }
 .div_mis_quince {
 	width: 80%;

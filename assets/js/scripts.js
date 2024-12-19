@@ -71,6 +71,7 @@ function confetti() {
 }
 
 
+
 jQuery.rnd = function (m, n, decimales) {
 	var precision = Math.pow(10, decimales);
 	m = m * precision;
@@ -85,6 +86,7 @@ function scrollToLetter() {
 	letter.scrollIntoView({ behavior: 'smooth' });
   }
 
+  
 
 ////  Scroll Transform Gold
 let windowHeight = window.innerHeight;
