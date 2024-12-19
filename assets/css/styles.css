@@ -96,10 +96,10 @@ body {
 }
 .scroll-button {
 	position: absolute;
-	bottom: 10%; /* Ajusta según sea necesario */
-	right: 5%; /* Ajusta la distancia desde la derecha */
+	bottom: 8.5%; /* Ajusta según sea necesario */
+	right: 3%; /* Ajusta la distancia desde la derecha */
 	z-index: 10;
-	background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+	background-color: rgba(0, 0, 0, 0.808); /* Fondo semitransparente */
 	color: white;
 	border: none;
 	border-radius: 50%;
