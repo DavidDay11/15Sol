@@ -1,15 +1,6 @@
 ////  Detectar Si Navegador Es Chrome
 
-// document.getElementById("firstAnimation").remove();
-// document.documentElement.style.setProperty("--time-chrome", `9s`);
-if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
-	// alert("El navegador que se está utilizando es Chrome");
-	document.documentElement.style.setProperty("--time-chrome", `0s`);
-} else {
-	// alert("El navegador que se está utilizando NO es Chrome");
-	document.getElementById("firstAnimation").remove();
-	document.documentElement.style.setProperty("--time-chrome", `9s`);
-}
+
 
 ////  Cuenta regresiva
 var fechaCuentaRegresiva = "02/07/2025 22:00:00";
@@ -79,6 +70,7 @@ function confetti() {
 	});
 }
 
+
 jQuery.rnd = function (m, n, decimales) {
 	var precision = Math.pow(10, decimales);
 	m = m * precision;
@@ -88,6 +80,12 @@ jQuery.rnd = function (m, n, decimales) {
 
 confetti();
 
+function scrollToLetter() {
+	const letter = document.getElementById('letter');
+	letter.scrollIntoView({ behavior: 'smooth' });
+  }
+
+
 ////  Scroll Transform Gold
 let windowHeight = window.innerHeight;
 let windowHeight2 = $(window).height();
@@ -96,6 +94,8 @@ var $mavi_gold = $("#mavi_gold");
 var $mis_quince_gold = $("#mis_quince_gold");
 var $mis_quince_gray = $("#mis_quince_gray");
 var $marco_gold = $("#marco_gold");
+
+
 
 window.onscroll = function () {
 	let letter_num2 = windowHeight * 1.08 - $(".letter_content").offset().top;
