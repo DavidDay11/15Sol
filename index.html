@@ -62,7 +62,20 @@
 			</div>
 		</div>
 		<div class="imgPortada">
+
 			<button class="scroll-button" onclick="scrollToLetter()">↓</button>
+			
+			<div class="music-player">
+				<audio id="audioPlayer" src="assets/musica.mp3"></audio>
+				<div class="controls">
+				  <button id="playPauseBtn" class="minimal-button"></button>
+				  <div class="volume-control">
+					<span>🔊</span>
+					<input id="volumeControl" type="range" min="0" max="1" step="0.1" value="0.5">
+				  </div>
+				</div>
+			  </div>
+			  
 		</div>
 
 		<div class="imgPortadaFalse">

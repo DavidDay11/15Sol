@@ -86,7 +86,27 @@ function scrollToLetter() {
 	letter.scrollIntoView({ behavior: 'smooth' });
   }
 
+  const audio = document.getElementById("audioPlayer");
+const playPauseBtn = document.getElementById("playPauseBtn");
+
+// Reproducir/Pausar
+playPauseBtn.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    playPauseBtn.classList.add("pause"); // Cambia el estilo a pausa
+  } else {
+    audio.pause();
+    playPauseBtn.classList.remove("pause"); // Cambia el estilo a play
+  }
+});
+
+// Controlar Volumen
+document.getElementById("volumeControl").addEventListener("input", (event) => {
+  audio.volume = event.target.value;
+});
+
   
+
 
 ////  Scroll Transform Gold
 let windowHeight = window.innerHeight;
